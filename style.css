@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.photo {
+  width: 100%;
+  display: block;
+}
+
+/* iPad transparent avec seulement le cadre */
+.ipad-css {
+  position: absolute;
+  width: 160px;
+  height: 240px;
+  left: 29%;
+  bottom: 27%;
+  transform: rotate(-5deg);
+  border: 3px solid #222; /* Contour noir */
+  border-radius: 24px;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Écran transparent — seulement un creux */
+.screen {
+  width: 95%;
+  height: 98%;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.03); /* Ultra transparent */
+  backdrop-filter: blur(2px); /* optionnel : effet verre */
+  -webkit-backdrop-filter: blur(2px);
+}
+
+
+
+.home-button {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background: #bbb;
+  border-radius: 50%;
+}
+

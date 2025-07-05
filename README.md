@@ -4,4 +4,5 @@ ai digital id
 - 1 id
 - has AI experiences, AI events
 -  
-- 
+- has bullet proof ai
+- confident, focus, energy, etc
